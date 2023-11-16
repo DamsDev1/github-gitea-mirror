@@ -10,7 +10,7 @@ from datetime import datetime
 
 giteaGetUserCache = dict()
 THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
-config = json.loads(open(os.path.expanduser("{0}/config.json".format(THIS_FOLDER))).read().strip())
+config = json.loads(open(os.path.expanduser("{0}/../config/config.json".format(THIS_FOLDER))).read().strip())
 
 def logError(val):
     log('')
