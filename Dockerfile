@@ -7,7 +7,7 @@ WORKDIR /app
 # Copy the requirements.txt file to the working directory
 
 # Install the Python dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install PyGithub
 
 # Copy the entire project directory into the container
 COPY . .
